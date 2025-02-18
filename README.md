@@ -8,15 +8,15 @@ This project performs data cleaning and analysis on car sales data stored in a M
 4. Performing exploratory data analysis (EDA) and visualizing insights.
 
 ## Project Structure
-├── README.md                # Project documentation
-├── config.ini               # Configuration file for database connection and file paths
-├── data/                    # Folder containing raw CSV data
-├── data_analysis.py         # Performs EDA and generates visualizations
-├── data_cleaning.py         # Cleans raw data from CSV file
-├── db_connection.py         # Establishes connection to MySQL database
-├── load_data.py             # Loads cleaned data into MySQL database
-├── plots/                   # Folder storing generated plots
-├── requirements.txt         # List of required dependencies
+- **README.md** - Project documentation  
+- **config.ini** - Configuration file for database connection and file paths  
+- **data/** - Folder containing raw CSV data  
+- **data_analysis.py** - Performs EDA and generates visualizations  
+- **data_cleaning.py** - Cleans raw data from CSV file  
+- **db_connection.py** - Establishes connection to MySQL database  
+- **load_data.py** - Loads cleaned data into MySQL database  
+- **plots/** - Folder storing generated plots  
+- **requirements.txt** - List of required dependencies  
 
 ## Prerequisites
 Ensure you have Python installed (preferably Python 3.x). Install dependencies using:
